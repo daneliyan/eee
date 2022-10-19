@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Чат с фрилансером</title>
+
+  <!-- favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/favicon.svg">
+<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.svg">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon.svg">
+<link rel="shortcut icon" href="img/favicon/favicon.svg" type="image/x-icon">
+<link rel="icon" href="img/favicon/favicon.svg" type="image/x-icon">
+<meta name="msapplication-tilecolor" content="#fff">
+<meta name="msapplication-tileimage" content="img/favicon/favicon.svg">
+<meta name="theme-color" content="#644CC7">
+
+<!-- CSS -->
+<link href="css/fancybox.min.css" type="text/css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" type="text/css" rel="stylesheet">
+<link href="css/jquery.formstyler.min.css" type="text/css" rel="stylesheet">
+<link href="css/jquery.formstyler.theme.min.css" type="text/css" rel="stylesheet">
+<link href="css/style.min.css" type="text/css" rel="stylesheet">
+<link href="css/media.min.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+<header class="header-desc">
+  <div class="container header">
+    <a href="index.html" class="logo">
+      <img src="img/logo/header-logo.png" alt="">
+    </a>
+    <nav class="navigation">
+      <ul>
+        <li><a href="categories.html">Категории</a></li>
+        <li><a href="freelancers.html">Фрилансеры</a></li>
+        <li><a href="academy.html">Workee Academy</a></li>
+        <li><a href="platform.html">О платформе</a></li>
+      </ul>
+    </nav>
+    <div class="header__right">
+      <div class="header__panel">
+        <div class="search-container">
+          <input type="text" placeholder="Введите запрос" class="search-input">
+          <div class="search icons _icon-search"></div>
+        </div>
+        <a href="chat-zak.html"><i class="icons _icon-message-circle"></i></a>
+        <div class="alerts-cl-dpd">
+          <button class="alerts-cl-dpdbtn">
+            <i class="icons _icon-bell"></i>
+          </button>
+          <div class="alerts-cl-dpd-content">
+            <ul class="allerts__list">
+              <li>
+                <a href="#">Новый отклик на задание</a>
+                <div class="time">12.12.12 12:24</div>
+              </li>
+              <li>
+                <a href="#">Новое сообщение в задании «Разработка лендинга»</a>
+                <div class="time">12.12.12 12:24</div>
+              </li>
+              <li>
+                <a href="#">Новый отклик на задание</a>
+                <div class="time">12.12.12 12:24</div>
+              </li>
+              <li>
+                <a href="#">Новый отклик на задание</a>
+                <div class="time">12.12.12 12:24</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="link">Мои заказы</a>
+      <div class="header__prof hw-dpd">
+        <button href="lk-zak.html" class="header__prof-avatar dropbtn">
+          <img src="img/profile/avatar.jpg" alt="">
+        </button>
+        <div class="header-hw-dpd-content">
+          <div class="header__prof-lg">
+            <a href="#" class="header__prof-lg wallet-btn">
+              <img src="img/profile/wallet-icon.svg" alt="Иконка валюты">0.0000054814
+              <i class="icons _icon-chevron"></i>
+            </a>
+            <a href="#" class="header__prof-lg button">Вывод</a>
+            <a href="#" class="header__prof-lg button">Пополнение</a>
+          </div>
+          <nav class="menu-nav">
+            <ul>
+              <li><a href="#">Личный кабинет</a></li>
+              <li><a href="#">История заданий</a></li>
+              <li class="semibold"><a href="#">Реферальная программа</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Стать исполнителем</a></li>
+              <li><a href="#">История транзакций</a></li>
+              <li><a href="#">Настройки</a></li>
+            </ul>
+            <ul>
+              <li><a href="#"><i class="icons _icon-globe"></i>Русский</a></li>
+              <li><a href="#">BUSD</a></li>
+              <li><a href="#">Поддержка</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Выйти из аккаунта</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <!-- breadcrumbs -->
+<div class="breadcrumbs">
+  <div class="container">
+    <nav>
+      <a href="/index.html">Главная</a>
+      <span>Чат с исполнителем</span>
+    </nav>
+  </div>
+</div>
+
+    <main class="page-home">
+
+      <section class="chat">
+  <div class="container">
+    <h2 class="section-title">Чат с исполнителем</h2>
+    <div class="chat-wrap">
+      <div class="chat-head">
+        <div class="chat-head-left">
+          <img src="img/profile/avatar-2.jpg" class="chat-head-avatar" alt="">
+          <div class="chat-head-info">
+            <div class="chat-head-info-name">SuperUser</div>
+            <div class="chat-head-info-group">
+              <p>Рейтинг - <span>4.8</span></p>
+              <p>Выполнено заказов - <span>458</span></p>
+            </div>
+          </div>
+        </div>
+        <a href="#"  class="chat-head-link"><i class="icons _icon-user"></i></a>
+      </div>
+      <div class="chat-body">
+        <div class="chat-body-link to-state" data-state="zakl-sdelku">
+          Заключить сделку
+        </div>
+        <div class="chat-body-container">
+          <div class="chat-body-messages">
+            <div class="chat-messages-right">
+              <div class="chat-messages-content">
+                <div class="chat-messages-text">
+                  <p>Привет. Давай бесплатно?</p>
+                </div>
+                <div class="chat-messages-info">
+                  <span class="time">22:15</span>
+                  <span class="icons _icon-check"></span>
+                </div>
+              </div>
+            </div>
+            <div class="chat-messages-left">
+              <img src="img/profile/avatar.jpg" class="chat-messages-avatar" alt="Фотография">
+              <div class="chat-messages-content">
+                <div class="chat-messages-text">
+                  <p>Привет! Готов сделать за 2 минуты. Вот мое портфолио – <a href="#">portfolio.com/23124dsf2</a>.
+                  Предлагаю поднять цену на 500 тысяч тугриков.</p>
+                </div>
+                <div class="chat-messages-info">
+                  <span class="time">22:15</span>
+                  <span class="icons _icon-check-two"></span>
+                </div>
+              </div>
+            </div>
+            <div class="chat-messages-right">
+              <div class="chat-messages-content">
+                <div class="chat-messages-text chat-messages-text--predloj">
+                  <p class="semibold">Предложение о сделке:</p>
+                  <p>Стоимость - <span class="semibold">48 000</span></p>
+                  <p>Срок - <span class="semibold">14.05.2022 12:15</span></p>
+                </div>
+                <div class="chat-messages-info">
+                  <span class="time">22:15</span>
+                  <span class="icons _icon-check"></span>
+                </div>
+              </div>
+            </div>
+            <div class="chat-messages-right">
+              <div class="chat-messages-content">
+                <div class="chat-messages-text chat-messages-text--predloj">
+                  <p class="semibold">Предложение о сделке:</p>
+                  <p>Стоимость - <span class="semibold">48 000</span></p>
+                  <p>Срок - <span class="semibold">14.05.2022 12:15</span></p>
+                </div>
+                <div class="chat-messages-info">
+                  <span class="status rec">Сделка отклонена</span>
+                  <span class="time">22:15</span>
+                  <span class="icons _icon-check"></span>
+                </div>
+              </div>
+            </div>
+            <div class="chat-messages-right">
+              <div class="chat-messages-content">
+                <div class="chat-messages-text chat-messages-text--predloj">
+                  <p class="semibold fiolet">Предложение о сделке:</p>
+                  <p>Стоимость - <span class="semibold">48 000</span></p>
+                  <p>Срок - <span class="semibold">14.05.2022 12:15</span></p>
+                </div>
+                <div class="chat-messages-info">
+                  <span class="time">22:15</span>
+                  <span class="icons _icon-check"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chat-nav">
+        <label for="chat-file" class="chat-file">
+          <input type="file" name="chat-file" id="chat-file">
+          <i class="icons _icon-paperclip"></i>
+        </label>
+        <label for="chat-message-input" class="form-label">
+          <input type="text" name="chat-message-input" id="chat-message-input" class="form-input" placeholder="Написать сообщение">
+        </label>
+        <button class="chat-send" id="chat-send"><i class="icons _icon-send"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <!--------Footer--------->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__group one">
+        <div class="footer__group-title">Категории</div>
+        <nav class="footer__group-nav">
+          <ul>
+            <li><a href="#">Разработка сайтов</a></li>
+            <li><a href="#">Дизайн и Арт</a></li>
+            <li><a href="#">Тексты</a></li>
+            <li><a href="#">Программирование</a></li>
+            <li><a href="#">Реклама и Маркетинг</a></li>
+            <li><a href="#">Аутсорсинг и консалтинг</a></li>
+            <li><a href="#">Анимация и флеш</a></li>
+            <li><a href="#">3D Графика</a></li>
+            <li><a href="#">Инжиниринг</a></li>
+            <li><a href="#">Архитектура/Интерьер</a></li>
+            <li><a href="#">Оптимизация (SEO)</a></li>
+            <li><a href="#">Менеджмент</a></li>
+            <li><a href="#">Мобильные приложения</a></li>
+            <li><a href="#">Сети и инфосистемы</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__group two">
+        <div class="footer__group-title">Workee</div>
+        <nav class="footer__group-nav">
+          <ul>
+            <li><a href="#">О платформе</a></li>
+            <li><a href="#">Сотрудничество</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+            <li><a href="#">Правила использования платформы</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__group thre">
+        <div class="footer__group-title">Помощь</div>
+        <nav class="footer__group-nav">
+          <ul>
+            <li><a href="#">Часто задаваемые вопросы</a></li>
+            <li><a href="#">Связаться с поддержкой</a></li>
+            <li><a href="#">Правила исполнителя</a></li>
+            <li><a href="#">Правила заказчика</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__group four">
+        <div class="footer__group-title">By Workee</div>
+        <nav class="footer__group-nav">
+          <ul>
+            <li><a href="#">Workee PRO</a></li>
+            <li><a href="#">Workee Academy</a></li>
+            <li><a href="#">Токен WRK</a></li>
+            <li><a href="#">CoWorkee</a></li>
+            <li><a href="#">Workee Launch</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <ul class="accordion__list">
+      <li class="accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <span class="footer__group-title">Категории</span>
+          <span class="accordion__icon"></span>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          <nav class="footer__group-nav">
+            <ul>
+              <li><a href="#">Разработка сайтов</a></li>
+              <li><a href="#">Дизайн и Арт</a></li>
+              <li><a href="#">Тексты</a></li>
+              <li><a href="#">Программирование</a></li>
+              <li><a href="#">Реклама и Маркетинг</a></li>
+              <li><a href="#">Аутсорсинг и консалтинг</a></li>
+              <li><a href="#">Анимация и флеш</a></li>
+              <li><a href="#">3D Графика</a></li>
+              <li><a href="#">Инжиниринг</a></li>
+              <li><a href="#">Архитектура/Интерьер</a></li>
+              <li><a href="#">Оптимизация (SEO)</a></li>
+              <li><a href="#">Менеджмент</a></li>
+              <li><a href="#">Мобильные приложения</a></li>
+              <li><a href="#">Сети и инфосистемы</a></li>
+            </ul>
+          </nav>
+        </div>
+      </li>
+      <li class="accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <span class="footer__group-title">Workee</span>
+          <span class="accordion__icon"></span>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          <nav class="footer__group-nav">
+            <ul>
+              <li><a href="#">О платформе</a></li>
+              <li><a href="#">Сотрудничество</a></li>
+              <li><a href="#">Политика конфиденциальности</a></li>
+              <li><a href="#">Правила использования платформы</a></li>
+            </ul>
+          </nav>
+        </div>
+      </li>
+      <li class="accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <span class="footer__group-title">Помощь</span>
+          <span class="accordion__icon"></span>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          <nav class="footer__group-nav">
+            <ul>
+              <li><a href="#">Часто задаваемые вопросы</a></li>
+              <li><a href="#">Связаться с поддержкой</a></li>
+              <li><a href="#">Правила исполнителя</a></li>
+              <li><a href="#">Правила заказчика</a></li>
+            </ul>
+          </nav>
+        </div>
+      </li>
+      <li class="accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <span class="footer__group-title">By Workee</span>
+          <span class="accordion__icon"></span>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          <nav class="footer__group-nav">
+            <ul>
+              <li><a href="#">Разработка сайтов</a></li>
+              <li><a href="#">Дизайн и Арт</a></li>
+              <li><a href="#">Тексты</a></li>
+              <li><a href="#">Программирование</a></li>
+              <li><a href="#">Реклама и Маркетинг</a></li>
+              <li><a href="#">Аутсорсинг и консалтинг</a></li>
+              <li><a href="#">Анимация и флеш</a></li>
+              <li><a href="#">3D Графика</a></li>
+              <li><a href="#">Инжиниринг</a></li>
+              <li><a href="#">Архитектура/Интерьер</a></li>
+              <li><a href="#">Оптимизация (SEO)</a></li>
+              <li><a href="#">Менеджмент</a></li>
+              <li><a href="#">Мобильные приложения</a></li>
+              <li><a href="#">Сети и инфосистемы</a></li>
+            </ul>
+          </nav>
+        </div>
+      </li>
+    </ul>
+    <div class="footer__bot">
+      <div class="footer__bot-lef">
+        <a href="index.html" class="logo">
+          <img src="img/logo/footer-logo.png" alt="Логотип">
+        </a>
+        <span>© Workee 2022</span>
+      </div>
+      <div class="footer__bot-rig">
+        <a href="hello@workee.info" class="icons _icon-email"></a>
+        <a href="#" class="lang">
+          <i class="icons _icon-globe"></i>Русский
+        </a>
+        <ul class="footer__social">
+          <li class="footer__social-item"><a href="#" class="footer__social-link icons _icon-fb"></a></li>
+          <li class="footer__social-item"><a href="#" class="footer__social-link icons _icon-fb"></a></li>
+          <li class="footer__social-item"><a href="#" class="footer__social-link icons _icon-fb"></a></li>
+          <li class="footer__social-item"><a href="#" class="footer__social-link icons _icon-fb"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!--------Modal-------->
+<div class="zs state" data-state="zakl-sdelku">
+	<div class="state-box">
+		<div class="close"></div>
+		<form class="form" action="">
+			<div class="form-group">
+				<div class="zs-title">Введите заголовок задания</div>
+				<label class="form-label form-label--text" for="">
+					<input type="text" class="form-input" placeholder="Например: Создать минималистичный лендинг">
+				</label>
+			</div>
+			<div class="form-group">
+				<div class="zs-title">Укажите срок исполнения</div>
+				<div class="form-row">
+					<label class="form-label form-label--data" for="">
+						<input type="text" class="form-input" placeholder="Дата">
+					</label>
+					<label class="form-label form-label--time" for="">
+						<input type="text" class="form-input" placeholder="Время">
+					</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="zs-title">Укажите стоимость задания</div>
+				<div class="form-row">
+					<label class="form-label" for="">
+						<input type="number" class="form-input form-input--number" placeholder="10000">
+					</label>
+					<div class="switch-container">
+						<label for="switch" class="switch">
+							<input type="checkbox" id="switch">
+							<span class="slider round"></span>
+						</label>
+						<p class="switch-text">Workee Payment Protetcion <i class="icons _icon-help-circle tooltip">
+							<span class="tooltiptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aut rem ipsam a optio esse?</span>
+						</i></p>
+					</div>
+				</div>
+			</div>
+			<div class="form-btns">
+				<div class="form-row">
+					<button type="submit" class="btn-cnt">Отправить запрос</button>
+					<button type="button" class="btn-cnt btn-cnt--border" id="modal-close">Отмена</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<!-- <div class="state" data-state="thanks">
+	<div class="state-box">
+		<div class="close"></div>
+		<img src="img/thanks.svg" class="thanks-img" alt="">
+		<div class="section-title">Thanks!</div>
+		<p>The download will start automatically,<br> if this did not happen, then <a href="">click here</a>.</p>
+		<button class="button button-close">Close</button>
+	</div>
+</div> -->
+
+  </div>
+
+  <!-- Script-->
+<link href="css/fancybox.css" rel="stylesheet">
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.formstyler.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scrollbar.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+
+<script src="js/app.min.js"></script>
+
+</body>
+
+</html>
